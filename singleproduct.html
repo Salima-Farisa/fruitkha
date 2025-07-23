@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<title>Single Product</title>
+  	<!-- Favicon -->
+  	<link rel="icon" type="image/png" href="img/favicon.png" />
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  	<!-- Bootstrap CSS -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  	<!-- Font Awesome (for icons) -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	<!--CSS-->
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header-section-->
+	<div class="header-about-top-section">
+  		<!-- Navbar -->
+  		<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    		<div class="container">
+      			<a class="navbar-brand" href="#">
+        			<img src="img/logo.png" alt="Fruitkha Logo">
+      			</a>
+      			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        			<span class="navbar-toggler-icon"></span>
+      			</button>
+      			<div class="collapse navbar-collapse" id="navbarNav">
+        			<ul class="navbar-nav ms-auto">
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">Home</a>
+            				<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="index.html">Static Home</a></li>
+              					<li><a class="dropdown-item" href="index_1.html">Slider Home</a></li>
+            				</ul>
+						</li>
+          				<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          				<li class="nav-item dropdown position-relative">
+            				<a class="nav-link" href="#">Pages</a>
+            				<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="404.html">404 Page</a></li>
+              					<li><a class="dropdown-item" href="about.html">About</a></li>
+              					<li><a class="dropdown-item" href="cart.html">Cart</a></li>
+              					<li><a class="dropdown-item" href="checkout.html">Check Out</a></li>
+              					<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              					<li><a class="dropdown-item" href="news.html">News</a></li>
+              					<li><a class="dropdown-item" href="shop.html">Shop</a></li>
+            				</ul>
+          				</li>
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">News</a>
+							<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="news.html">News</a></li>
+              					<li><a class="dropdown-item" href="singlenews.html">Single News</a></li>
+            				</ul>
+						</li>
+          				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">Shop</a>
+							<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="shop.html">Shop</a></li>
+              					<li><a class="dropdown-item" href="checkout.html">checkout</a></li>
+								<li><a class="dropdown-item" href="singleproduct.html">Single Product</a></li>
+              					<li><a class="dropdown-item" href="cart.html">Cart</a></li>
+            				</ul>
+						</li>
+					</ul>
+          				<!-- Cart & Search Icons -->
+					<ul class="navbar-nav ms-auto">
+          				<li class="nav-item d-flex align-items-center ms-2">
+            				<a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i></a>
+            				<a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+          				</li>
+        			</ul>
+      			</div>
+    		</div>
+  		</nav>
+		<section class="hero-section d-flex align-items-center text-white text-center">
+  			<div class="container">
+    			<div class="row justify-content-center">
+      				<div class="col-lg-8">
+        				<p class="hero-subtitle">SEE MORE DETAILS</p>
+        				<h1 class="hero-title">Single Product</h1>
+      				</div>
+    			</div>
+  			</div>
+		</section>
+ 	</div>
+	
+    <!--Single Product-->
+    <div class="single-product py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <!-- Product Image -->
+                <div class="col-md-5">
+                    <div class="single-product-img">
+                        <img src="img/product-img-5.jpg" alt="Green Apple" class="img-fluid rounded">
+                    </div>
+                </div>
+                <!-- Product Info -->
+                <div class="col-md-7">
+                    <div class="single-product-content">
+                        <h3 class="mb-3">Green apples have polyphenols</h3>
+                        <p class="text-muted fs-5"><span class="fw-bold">Per Kg:</span> $50</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta sint dignissimos, rem commodi cum voluptatem quae reprehenderit repudiandae ea tempora incidunt ipsa, quisquam animi perferendis eos eum modi! Tempora, earum.</p>
+                        <!-- Add to Cart Form -->
+                        <form action="index.html" class="d-flex align-items-center gap-2 my-4">
+                            <input type="number" class="form-control w-auto" placeholder="0" min="1">
+                            <a href="cart.html" class="btn btn-warning"><i class="fas fa-shopping-cart me-2"></i>Add to Cart</a>
+                        </form>
+                        <p><strong>Categories:</strong> Fruits, Organic</p>
+                        <!-- Social Share -->
+                        <h5 class="mt-4">Share:</h5>
+                        <ul class="list-inline mt-2">
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--More product-->
+    <div class="more-products py-5">
+        <div class="container">
+            <!-- Title -->
+            <div class="row mb-5">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <div class="section-title">
+                        <h3><span class="text-warning">Related</span> Products</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Cards -->
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="product-image">
+                            <a href="single-product.html">
+                                <img src="img/product-img-1.jpg" class="card-img-top" alt="Strawberry">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry</h5>
+                            <p class="product-price text-muted"><span class="fw-bold">Per Kg</span> $85</p>
+                            <a href="cart.html" class="btn btn-warning">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="product-image">
+                            <a href="single-product.html">
+                                <img src="img/product-img-2.jpg" class="card-img-top" alt="Berry">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Berry</h5>
+                            <p class="product-price text-muted"><span class="fw-bold">Per Kg</span> $70</p>
+                            <a href="cart.html" class="btn btn-warning">
+                                <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-lg-4 col-md-6 mx-md-auto text-center">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="product-image">
+                            <a href="single-product.html">
+                                <img src="img/product-img-3.jpg" class="card-img-top" alt="Lemon">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Lemon</h5>
+                            <p class="product-price text-muted"><span class="fw-bold">Per Kg</span> $35</p>
+                            <a href="cart.html" class="btn btn-warning">
+                            <i class="fas fa-shopping-cart me-2"></i>Add to Cart
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!--logo-carousel-->
+	<div id="logoCarousel" class="carousel slide logo-carousel-section py-5 bg-white" data-bs-ride="carousel">
+  		<div class="carousel-inner text-center">
+    		<!-- Slide 1 -->
+    		<div class="carousel-item active">
+      			<div class="d-flex justify-content-center gap-4">
+        			<img src="img/1.png" class="img-fluid" alt="Logo 1" style="height: 60px;">
+        			<img src="img/2.png" class="img-fluid" alt="Logo 2" style="height: 60px;">
+        			<img src="img/3.png" class="img-fluid" alt="Logo 3" style="height: 60px;">
+        			<img src="img/4.png" class="img-fluid" alt="Logo 4" style="height: 60px;">
+      			</div>
+    		</div>
+    		<!-- Slide 2 -->
+    		<div class="carousel-item">
+      			<div class="d-flex justify-content-center gap-4">
+        			<img src="img/5.png" class="img-fluid" alt="Logo 5" style="height: 60px;">
+        			<img src="img/1.png" class="img-fluid" alt="Logo 1" style="height: 60px;">
+        			<img src="img/2.png" class="img-fluid" alt="Logo 2" style="height: 60px;">
+        			<img src="img/3.png" class="img-fluid" alt="Logo 3" style="height: 60px;">
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<!--Footer-->
+	<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About us</h3>
+                <p style="line-height: 25px;">Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae</p>
+            </div>
+            <div class="footer-col">
+                <h3>Get in Touch</h3>
+                <p style="line-height: 35px;">34/8, East Hukupara, Gifirtok, Sadan.<br>support@fruitkha.com<br>+00 111 222 3333</p>
+            </div>
+            <div class="footer-col">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-greater-than"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-greater-than"></i>About</a></li>
+                    <li><a href="shop.html"><i class="fa-solid fa-greater-than"></i>Shop</a></li>
+                    <li><a href="news.html"><i class="fa-solid fa-greater-than"></i>News</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-greater-than"></i>Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Subscribe</h3>
+                <p>Subscribe to our mailing list to get the latest updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>Copyrights © 2019 -<a href="https://imransdesign.com/"><strong class="taken">Imran Hossain</strong></a>, All Rights Reserved.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-dribbble"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

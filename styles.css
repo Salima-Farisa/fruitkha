@@ -1,0 +1,293 @@
+/*about-page*/
+.header-about-top-section {
+  background: url('img/about.png') no-repeat center center/cover;
+  position: relative;
+}
+
+
+.feature-bg {
+  background-color: #f9f9f9;
+}
+
+.featured-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.orange-text {
+  color: #f28123;
+}
+
+.list-icon {
+  font-size: 24px;
+  color: #f28123;
+  border: 2px dotted #f28123;
+  border-radius: 50%;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.content h5 {
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.content p {
+  font-size: 15px;
+  margin-bottom: 0;
+  
+}
+
+.feature-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.mt-150 {
+  margin-top: 150px;
+}
+
+.section-title p {
+    font-size: 20px;
+}
+
+.single-team-item {
+  padding: 30px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.team-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border: none;
+  border-radius: 10px;
+}
+
+.single-team-item h4 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.single-team-item h4 span {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: #888;
+}
+/* Social Media Icons */
+.team-card {
+  position: relative;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li{
+  list-style: none;
+}
+
+.social-icons li a {
+  background-color: #f28123;   /* Orange background */
+  color: white;                /* White icon */
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;          /* Circle */
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  
+}
+.social-icons li a:hover {
+  background-color: #d96e1a;
+}
+
+/*Error page*/
+.full-height-section {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #f9f9f9;
+}
+
+.full-height-tablecell {
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.error-text {
+	text-align: center;
+	padding: 30px;
+}
+
+.error-text i {
+	font-size: 100px;
+	color: #f28123;
+	margin-bottom: 20px;
+}
+
+.error-text h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #333;
+}
+
+.error-text p {
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.boxed-btn {
+	background-color: #f28123;
+	color: #fff;
+	padding: 12px 25px;
+	font-size: 16px;
+	border-radius: 25px;
+	text-decoration: none;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.boxed-btn:hover {
+	background-color: #d96e1a;
+	color: #fff;
+}
+
+/*news-section*/
+.news-img {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.card:hover .news-img {
+  filter: brightness(90%);
+}
+
+/*single-article*/
+.comment-template input, .comment-template textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.comment-template input[type="submit"] {
+  background-color: #f28123;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+
+/*Contact-page*/
+.contact-form-wrap {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form-box h5 {
+  font-size: 18px;
+  color: #f28123;
+}
+
+.contact-form-box p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.bg-primary {
+  background-color: #007bff !important; /* or your preferred blue */
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+/*Product-Section*/
+.product-filters ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.product-filters .filter-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #111;
+  border-radius: 50px;
+  margin: 0 8px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #111;
+  transition: all 0.3s ease;
+}
+
+.product-filters .filter-btn.active {
+  background-color: #f28123;
+  color: #fff;
+  border-color: #f28123;
+}
+
+.product-image img {
+  width: 100%;
+  height: 250px; /* or any fixed height you want */
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+/*Checkout*/
+.boxed-btn {
+  background-color: #f28123;
+  padding: 12px 30px;
+  color: white;    
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.boxed-btn:hover {
+  background-color: #d96e1a;
+  color: white;
+}  
+
+.order-details th {
+  background-color: #f28123;
+  color: white;
+}
+
+.checkout-section {
+  padding: 100px 0;
+}
+

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  	<title>Single News</title>
+  	<!-- Favicon -->
+  	<link rel="icon" type="image/png" href="img/favicon.png" />
+  	<!-- Google Fonts -->
+  	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  	<!-- Bootstrap CSS -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  	<!-- Font Awesome (for icons) -->
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	<!--CSS-->
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Header-section-->
+	<div class="header-about-top-section">
+  		<!-- Navbar -->
+  		<nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    		<div class="container">
+      			<a class="navbar-brand" href="#">
+        			<img src="img/logo.png" alt="Fruitkha Logo">
+      			</a>
+      			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        			<span class="navbar-toggler-icon"></span>
+      			</button>
+      			<div class="collapse navbar-collapse" id="navbarNav">
+        			<ul class="navbar-nav ms-auto">
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">Home</a>
+            				<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="index.html">Static Home</a></li>
+              					<li><a class="dropdown-item" href="index_1.html">Slider Home</a></li>
+            				</ul>
+						</li>
+          				<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          				<li class="nav-item dropdown position-relative">
+            				<a class="nav-link" href="#">Pages</a>
+            				<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="404.html">404 Page</a></li>
+              					<li><a class="dropdown-item" href="about.html">About</a></li>
+              					<li><a class="dropdown-item" href="cart.html">Cart</a></li>
+              					<li><a class="dropdown-item" href="checkout.html">Check Out</a></li>
+              					<li><a class="dropdown-item" href="contact.html">Contact</a></li>
+              					<li><a class="dropdown-item" href="news.html">News</a></li>
+              					<li><a class="dropdown-item" href="shop.html">Shop</a></li>
+            				</ul>
+          				</li>
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">News</a>
+							<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="news.html">News</a></li>
+              					<li><a class="dropdown-item" href="singlenews.html">Single News</a></li>
+            				</ul>
+						</li>
+          				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          				<li class="nav-item dropdown position-relative">
+							<a class="nav-link" href="#">Shop</a>
+							<ul class="dropdown-menu">
+              					<li><a class="dropdown-item" href="shop.html">Shop</a></li>
+              					<li><a class="dropdown-item" href="checkout.html">checkout</a></li>
+								<li><a class="dropdown-item" href="singleproduct.html">Single Product</a></li>
+              					<li><a class="dropdown-item" href="cart.html">Cart</a></li>
+            				</ul>
+						</li>
+					</ul>
+          				<!-- Cart & Search Icons -->
+					<ul class="navbar-nav ms-auto">
+          				<li class="nav-item d-flex align-items-center ms-2">
+            				<a href="cart.html" class="nav-link"><i class="fas fa-shopping-cart"></i></a>
+            				<a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+          				</li>
+        			</ul>
+      			</div>
+    		</div>
+  		</nav>
+		<section class="hero-section d-flex align-items-center text-white text-center">
+  			<div class="container">
+    			<div class="row justify-content-center">
+      				<div class="col-lg-8">
+        				<p class="hero-subtitle">READ THE ARTICLE</p>
+        				<h1 class="hero-title">Single Article</h1>
+      				</div>
+    			</div>
+  			</div>
+		</section>
+ 	</div>
+	
+    <!--Article-->
+    <section class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <!-- Blog Content -->
+                <div class="col-lg-8">
+                    <article class="mb-5">
+                        <div class="mb-3" style="height: 400px; background-image: url('img/news-img.webp'); background-size: cover; background-position: center; border-radius: 8px;"></div>
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-user me-1"></i> Admin &nbsp; | &nbsp;
+                            <i class="fas fa-calendar me-1"></i> 27 December, 2019
+                        </p>
+                        <h2 class="mb-4">Pomegranate can prevent heart disease</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit... </p>
+                    </article>
+                    <!-- Comments Section -->
+                    <div class="mb-5">
+                        <h4 class="mb-4">3 Comments</h4>
+                        <!-- Comment 1 -->
+                        <div class="d-flex mb-4">
+                            <img src="img/avatar1.png" class="rounded-circle me-3" width="150" alt="avatar">
+                        <div>
+                        <h5 class="mb-1">Jenny Joe <small class="text-muted">April 26, 2020</small></h5>
+                        <p class="mb-1">Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
+                        <a href="#" class="text-warning small">Reply</a>
+                    </div>
+                </div>
+                <!-- Comment Reply -->
+                <div class="d-flex ms-5 mb-4">
+                    <img src="img/avatar2.png" class="rounded-circle me-3" width="150" alt="avatar">
+                    <div>
+                        <h5 class="mb-1">Simon Soe <small class="text-muted">April 27, 2020</small></h5>
+                        <p class="mb-1">Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
+                        <a href="#" class="text-warning small">Reply</a>
+                    </div>
+                </div>
+                <!-- Comment 2 -->
+                <div class="d-flex mb-4">
+                    <img src="img/avatar3.png" class="rounded-circle me-3" width="150" alt="avatar">
+                    <div>
+                        <h5 class="mb-1">Addy Aoe <small class="text-muted">May 12, 2020</small></h5>
+                        <p class="mb-1">Nunc risus ex, tempus quis purus ac, tempor consequat ex. Vivamus sem magna, maximus at est id, maximus aliquet nunc. Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus Suspendisse lacinia velit a eros porttitor, in interdum ante faucibus.</p>
+                        <a href="#" class="text-warning small">Reply</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Comment Form -->
+            <div>
+                <h4>Leave a comment</h4>
+                <p>If you have a comment, don't hesitate to send us your opinion.</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning text-white">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4 mt-5 mt-lg-0">
+            <aside class="ps-lg-4">
+                <div class="mb-5">
+                    <h5 class="mb-3">Recent Posts</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="single-news.html" class="text-decoration-none text-dark d-block py-1">You will vainly look for fruit on it in autumn.</a></li>
+                        <li><a href="single-news.html" class="text-decoration-none text-dark d-block py-1">A man's worth has its season, like tomato.</a></li>
+                        <li><a href="single-news.html" class="text-decoration-none text-dark d-block py-1">Good thoughts bear good fresh juicy fruit.</a></li>
+                        <li><a href="single-news.html" class="text-decoration-none text-dark d-block py-1">Fall in love with the fresh orange</a></li>
+                        <li><a href="single-news.html" class="text-decoration-none text-dark d-block py-1">Why the berries always look delicious</a></li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <h5 class="mb-3">Archive Posts</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark d-block py-1">JAN 2019 (5)</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block py-1">FEB 2019 (3)</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block py-1">MAY 2019 (4)</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block py-1">SEP 2019 (4)</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark d-block py-1">DEC 2019 (3)</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="mb-3">Tags</h5>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Apple</a>
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Strawberry</a>
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Berry</a>
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Orange</a>
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Lemon</a>
+                        <a href="#" class="badge bg-warning text-white text-decoration-none">Banana</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+	<!--logo-carousel-->
+	<div id="logoCarousel" class="carousel slide logo-carousel-section py-5 bg-white" data-bs-ride="carousel">
+  		<div class="carousel-inner text-center">
+    		<!-- Slide 1 -->
+    		<div class="carousel-item active">
+      			<div class="d-flex justify-content-center gap-4">
+        			<img src="img/1.png" class="img-fluid" alt="Logo 1" style="height: 60px;">
+        			<img src="img/2.png" class="img-fluid" alt="Logo 2" style="height: 60px;">
+        			<img src="img/3.png" class="img-fluid" alt="Logo 3" style="height: 60px;">
+        			<img src="img/4.png" class="img-fluid" alt="Logo 4" style="height: 60px;">
+      			</div>
+    		</div>
+    		<!-- Slide 2 -->
+    		<div class="carousel-item">
+      			<div class="d-flex justify-content-center gap-4">
+        			<img src="img/5.png" class="img-fluid" alt="Logo 5" style="height: 60px;">
+        			<img src="img/1.png" class="img-fluid" alt="Logo 1" style="height: 60px;">
+        			<img src="img/2.png" class="img-fluid" alt="Logo 2" style="height: 60px;">
+        			<img src="img/3.png" class="img-fluid" alt="Logo 3" style="height: 60px;">
+      			</div>
+    		</div>
+  		</div>
+	</div>
+
+	<!--Footer-->
+	<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>About us</h3>
+                <p style="line-height: 25px;">Ut enim ad minim veniam perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,totam rem aperiam, eaque ipsa quae</p>
+            </div>
+            <div class="footer-col">
+                <h3>Get in Touch</h3>
+                <p style="line-height: 35px;">34/8, East Hukupara, Gifirtok, Sadan.<br>support@fruitkha.com<br>+00 111 222 3333</p>
+            </div>
+            <div class="footer-col">
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-greater-than"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-greater-than"></i>About</a></li>
+                    <li><a href="shop.html"><i class="fa-solid fa-greater-than"></i>Shop</a></li>
+                    <li><a href="news.html"><i class="fa-solid fa-greater-than"></i>News</a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-greater-than"></i>Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Subscribe</h3>
+                <p>Subscribe to our mailing list to get the latest updates.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom">
+            <p>Copyrights © 2019 -<a href="https://imransdesign.com/"><strong class="taken">Imran Hossain</strong></a>, All Rights Reserved.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-dribbble"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
